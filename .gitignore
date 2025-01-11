@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Bytecode files
+__pycache__/
+
+# VSCode
+.vscode/
+
+# Experiment folders
+Richard/
