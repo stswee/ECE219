@@ -1,0 +1,9 @@
+ECE219_Project1_Final.ipynb
+To run this notebook, make sure that the Project1-ClassificationDataset.csv file is in the same directory as this notebook. All cells should be run sequentially.
+
+ECE219_Project1_Pipeline_Complete.ipynb
+To run this notebook, make sure that the Project1-ClassificationDataset.csv file is in the same directory as this notebook. All cells should be run sequentially. 
+If desired, the accuracy_values.txt file can be uploaded in the same directory to avoid having to train all 144 model combinations. Then, start from the cell that uploads the accuracy_values.txt file.
+
+glove.ipynb
+To run this notebook, make sure that the Project1-ClassificationDataset.csv and glove.6B.300d.txt files are in the appropriate directory (change the data path as needed). All cells should be run sequentially.
