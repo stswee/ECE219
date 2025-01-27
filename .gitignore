@@ -9,3 +9,7 @@ __pycache__/
 
 # Experiment folders
 Richard/
+Chandler/
+
+# GLoVE Embeddings (they too big :/)
+glove.6B.*d.txt
