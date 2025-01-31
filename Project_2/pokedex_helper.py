@@ -26,6 +26,8 @@ def construct_pokedex(csv_path='Pokemon.csv', image_dir='./images/', type_to_loa
             image_paths.append(None)
 
     pokedex["image_path"] = image_paths
+
+    # remove pokemon without images
     pokedex = pokedex[pokedex["image_path"].notna()].reset_index(drop=True)
 
     # only keep pokemon with distinct id
@@ -41,7 +43,7 @@ def construct_pokedex(csv_path='Pokemon.csv', image_dir='./images/', type_to_loa
 
 # load clip model
 def load_clip_model():
-    device = "cuda" if torch.cuda.is_available() else "cpu"
+    device = "mps" if torch.backends.mps.is_available() else "cpu"
     model, preprocess = clip.load("ViT-L/14", device=device)
     return model, preprocess, device
 
