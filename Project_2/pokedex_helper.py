@@ -91,3 +91,4 @@ def umap_projection(image_embeddings, n_neighbors=15, min_dist=0.1, metric='cosi
     reducer = TSNE(n_components=2, metric="precomputed", init="random", random_state=42)
     visualization_data = reducer.fit_transform(distance_matrix)
     return visualization_data
+
