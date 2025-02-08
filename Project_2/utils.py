@@ -7,6 +7,8 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import wordnet
 import re, string
 import pandas as pd
+from sklearn.decomposition import TruncatedSVD
+
 nltk.download('punkt_tab', quiet=True)
 nltk.download('wordnet', quiet=True)
 nltk.download('averaged_perceptron_tagger', quiet=True)
