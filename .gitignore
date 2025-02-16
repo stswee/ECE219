@@ -7,9 +7,16 @@ __pycache__/
 # VSCode
 .vscode/
 
+# iPython Checkpoints
+.ipynb_checkpoints/
+
 # Experiment folders
 Richard/
 Chandler/
 
 # GLoVE Embeddings (they too big :/)
 glove.6B.*d.txt
+
+# Project II Flowers Data Files
+flower_photos/
+flowers_features_and_labels.npz
