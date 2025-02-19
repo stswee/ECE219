@@ -20,3 +20,5 @@ glove.6B.*d.txt
 # Project II Flowers Data Files
 flower_photos/
 flowers_features_and_labels.npz
+
+Project_3/web10kdata/
